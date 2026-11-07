@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone - Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Navigation Bar -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            amazon<span class="smile">⌣</span>
+        </a>
+
+        <div class="location">
+            <span class="small-text">Deliver to</span>
+            <strong>India</strong>
+        </div>
+
+        <form class="search-bar" action="#">
+            <select aria-label="Product category">
+                <option>All</option>
+                <option>Electronics</option>
+                <option>Books</option>
+                <option>Fashion</option>
+            </select>
+            <input type="text" placeholder="Search Amazon" aria-label="Search Amazon">
+            <button type="submit" aria-label="Search">⌕</button>
+        </form>
+
+        <div class="nav-item language">EN</div>
+
+        <a href="#" class="nav-item account">
+            <span class="small-text">Hello, sign in</span>
+            <strong>Account &amp; Lists</strong>
+        </a>
+
+        <a href="#" class="nav-item orders">
+            <span class="small-text">Returns</span>
+            <strong>&amp; Orders</strong>
+        </a>
+
+        <a href="#" class="cart">
+            <span class="cart-icon">🛒</span>
+            <strong>Cart</strong>
+        </a>
+    </header>
+
+    <!-- Category Navigation -->
+    <nav class="sub-navbar">
+        <a href="#">☰ All</a>
+        <a href="#">Today's Deals</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Registry</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+    </nav>
+
+    <!-- Hero Banner -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-tag">YOUR NEXT FAVORITE FIND</p>
+                <h1>Discover something amazing.</h1>
+                <p>Explore everyday essentials, tech, fashion and more.</p>
+                <a href="#shopping" class="shop-button">Explore products</a>
+            </div>
+        </section>
+
+        <!-- Shopping Categories -->
+        <section class="shopping-grid" id="shopping">
+
+            <article class="product-card">
+                <h2>Gaming accessories</h2>
+                <a href="#electronics" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=600&q=80"
+                         alt="Gaming monitor and desk setup">
+                </a>
+                <a href="#electronics" class="card-link">See more</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Refresh your space</h2>
+                <a href="#home" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&q=80"
+                         alt="Modern living room furniture">
+                </a>
+                <a href="#home" class="card-link">Discover home</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Fashion essentials</h2>
+                <a href="#fashion" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80"
+                         alt="Fashion shopping and clothing">
+                </a>
+                <a href="#fashion" class="card-link">Explore fashion</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Electronics &amp; gadgets</h2>
+                <a href="#electronics" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=600&q=80"
+                         alt="Electronics and gadgets">
+                </a>
+                <a href="#electronics" class="card-link">View electronics</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Books to explore</h2>
+                <a href="#books" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80"
+                         alt="Books arranged on a table">
+                </a>
+                <a href="#books" class="card-link">Browse books</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Everyday essentials</h2>
+                <a href="#essentials" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80"
+                         alt="Personal care products">
+                </a>
+                <a href="#essentials" class="card-link">Shop essentials</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Fitness &amp; outdoors</h2>
+                <a href="#fitness" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80"
+                         alt="Fitness equipment in a gym">
+                </a>
+                <a href="#fitness" class="card-link">Get active</a>
+            </article>
+
+            <article class="product-card">
+                <h2>Accessories for you</h2>
+                <a href="#fashion" class="product-image">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                         alt="Wristwatch accessory">
+                </a>
+                <a href="#fashion" class="card-link">See accessories</a>
+            </article>
+
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured" id="electronics">
+            <h2>Popular picks for your day</h2>
+
+            <div class="featured-grid">
+                <article class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"
+                         alt="Wireless headphones">
+                    <h3>Wireless headphones</h3>
+                    <p class="price">₹1,999</p>
+                    <p class="description">Enjoy your favorite music anywhere.</p>
+                    <a href="#" class="buy-link">View product</a>
+                </article>
+
+                <article class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=400&q=80"
+                         alt="Smartwatch">
+                    <h3>Smartwatch</h3>
+                    <p class="price">₹2,499</p>
+                    <p class="description">Stay connected throughout the day.</p>
+                    <a href="#" class="buy-link">View product</a>
+                </article>
+
+                <article class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80"
+                         alt="Red running shoe">
+                    <h3>Running shoes</h3>
+                    <p class="price">₹1,499</p>
+                    <p class="description">Comfort for your everyday activities.</p>
+                    <a href="#" class="buy-link">View product</a>
+                </article>
+
+                <article class="featured-item">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80"
+                         alt="Smartphone">
+                    <h3>Smartphone</h3>
+                    <p class="price">₹12,999</p>
+                    <p class="description">Explore technology and entertainment.</p>
+                    <a href="#" class="buy-link">View product</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="back-to-top">Back to top ↑</a>
+
+        <div class="footer-content">
+            <div>
+                <h3>Get to Know Us</h3>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Releases</a>
+            </div>
+
+            <div>
+                <h3>Connect with Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div>
+                <h3>Let Us Help You</h3>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Amazon-inspired educational project</p>
+            <p>© 2026 | Built using HTML and CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
